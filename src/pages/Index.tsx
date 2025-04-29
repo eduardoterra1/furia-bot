@@ -58,16 +58,18 @@ const Index = () => {
         botResponse = botResponses.clutchMoments[Math.floor(Math.random() * botResponses.clutchMoments.length)];
       } else if (userMessage.includes("meme") || userMessage.includes("engraçado")) {
         botResponse = botResponses.memes[Math.floor(Math.random() * botResponses.memes.length)];
-      } else if (userMessage.includes("art") || userMessage.includes("andrei")) {
-        botResponse = botResponses.playerPraise.arT[Math.floor(Math.random() * botResponses.playerPraise.arT.length)];
+      } else if (userMessage.includes("fallen") || userMessage.includes("gabriel")) {
+        botResponse = botResponses.playerPraise.FalleN[Math.floor(Math.random() * botResponses.playerPraise.FalleN.length)];
       } else if (userMessage.includes("yuurih") || userMessage.includes("yuri")) {
         botResponse = botResponses.playerPraise.yuurih[Math.floor(Math.random() * botResponses.playerPraise.yuurih.length)];
       } else if (userMessage.includes("kscerato") || userMessage.includes("kaike")) {
         botResponse = botResponses.playerPraise.KSCERATO[Math.floor(Math.random() * botResponses.playerPraise.KSCERATO.length)];
-      } else if (userMessage.includes("drop") || userMessage.includes("andré")) {
-        botResponse = botResponses.playerPraise.drop[Math.floor(Math.random() * botResponses.playerPraise.drop.length)];
-      } else if (userMessage.includes("saffee") || userMessage.includes("rafael")) {
-        botResponse = botResponses.playerPraise.saffee[Math.floor(Math.random() * botResponses.playerPraise.saffee.length)];
+      } else if (userMessage.includes("molodoy") || userMessage.includes("danil")) {
+        botResponse = botResponses.playerPraise.MOLODOY[Math.floor(Math.random() * botResponses.playerPraise.MOLODOY.length)];
+      } else if (userMessage.includes("yekindar") || userMessage.includes("mareks")) {
+        botResponse = botResponses.playerPraise.YEKINDAR[Math.floor(Math.random() * botResponses.playerPraise.YEKINDAR.length)];
+      } else if (userMessage.includes("coach") || userMessage.includes("sidde")) {
+        botResponse = botResponses.playerPraise.Sidde[Math.floor(Math.random() * botResponses.playerPraise.Sidde.length)];
       } else if (userMessage.includes("grito") || userMessage.includes("guerra")) {
         botResponse = `Olha só esse grito da massa:\n\n"${warCries[Math.floor(Math.random() * warCries.length)].text}"`;
       } else {
