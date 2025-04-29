@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useToast } from "@/components/ui/use-toast";
-import { gamepad, message, trophy, users, helpCircle } from "lucide-react";
+import { Gamepad, MessageSquare, Trophy, Users, HelpCircle } from "lucide-react";
 
 import ChatMessage from "@/components/ChatMessage";
 import PlayerCard from "@/components/PlayerCard";
@@ -102,27 +102,27 @@ const Index = () => {
         <Tabs defaultValue="chat" className="w-full">
           <TabsList className="grid grid-cols-5 w-full bg-furia-primary border border-furia-secondary">
             <TabsTrigger value="chat" className="flex gap-2 items-center">
-              <message className="h-4 w-4" />
+              <MessageSquare className="h-4 w-4" />
               <span className="hidden sm:inline">Chat</span>
             </TabsTrigger>
             
             <TabsTrigger value="matches" className="flex gap-2 items-center">
-              <trophy className="h-4 w-4" />
+              <Trophy className="h-4 w-4" />
               <span className="hidden sm:inline">Partidas</span>
             </TabsTrigger>
             
             <TabsTrigger value="players" className="flex gap-2 items-center">
-              <users className="h-4 w-4" />
+              <Users className="h-4 w-4" />
               <span className="hidden sm:inline">Players</span>
             </TabsTrigger>
             
             <TabsTrigger value="trivia" className="flex gap-2 items-center">
-              <helpCircle className="h-4 w-4" />
+              <HelpCircle className="h-4 w-4" />
               <span className="hidden sm:inline">Trivia</span>
             </TabsTrigger>
             
             <TabsTrigger value="ai" className="flex gap-2 items-center">
-              <gamepad className="h-4 w-4" />
+              <Gamepad className="h-4 w-4" />
               <span className="hidden sm:inline">Modo I.A</span>
             </TabsTrigger>
           </TabsList>
