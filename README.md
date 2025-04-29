@@ -9,15 +9,14 @@ Para iniciar o projeto:
 
 ```sh
 # Etapa1: Clonar o repositorio usando a URL do git.
-git clone <YOUR_GIT_URL>
+git clone <SUA_GIT_URL>
 
 # Etapa 2: Navegue para diretorio do projeto.
-cd <YOUR_PROJECT_NAME>
+cd <SEU_PROJECT_NAME>
 
 # Etapa 3: Instale as dependências necessárias. 
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
 # Etapa 4: Inicie o servidor de desenvolvilmento com auto-realoading e prévia instantânia. 
 npm run dev
 ```
