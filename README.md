@@ -8,23 +8,25 @@
 Para iniciar o projeto:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Etapa1: Clonar o repositorio usando a URL do git.
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Etapa 2: Navegue para diretorio do projeto.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Etapa 3: Instale as dependências necessárias. 
 npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
+# Etapa 4: Inicie o servidor de desenvolvilmento com auto-realoading e prévia instantânia. 
 npm run dev
 ```
 
 ## Quais tecnologias foram usadas neste projeto?
 
-This project is built with:
+Este projeto foi construido com:
 
+- Lovable (I.A)
 - Vite
 - TypeScript
 - React
