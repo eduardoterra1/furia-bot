@@ -140,11 +140,17 @@ const Index = () => {
                   <ScrollArea className="flex-1 pr-4 mb-4">
                     <div className="flex flex-col">
                       {chatMessages.map((msg, index) => <ChatMessage key={index} message={msg.text} isBot={msg.isBot} animate={index === chatMessages.length - 1} />)}
-                      {loading && <div className="chat-bubble chat-bubble-bot">
-                          <div className="flex gap-1">
-                            <span className="animate-bounce">•</span>
-                            <span className="animate-bounce delay-75">•</span>
-                            <span className="animate-bounce delay-150">•</span>
+                      {loading && <div className="flex items-start gap-2 mb-4">
+                          <Avatar className="h-8 w-8 mt-1">
+                            <AvatarImage src="/lovable-uploads/53b3c46f-6648-4fb2-b79d-3917b15608a8.png" alt="FURIA Logo" />
+                            <AvatarFallback className="bg-black border border-furia-secondary">F</AvatarFallback>
+                          </Avatar>
+                          <div className="chat-bubble chat-bubble-bot">
+                            <div className="flex gap-1">
+                              <span className="animate-bounce">•</span>
+                              <span className="animate-bounce delay-75">•</span>
+                              <span className="animate-bounce delay-150">•</span>
+                            </div>
                           </div>
                         </div>}
                       <div ref={messagesEndRef} />
