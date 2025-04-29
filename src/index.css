@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -98,4 +94,75 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.furia-gradient {
+  background: linear-gradient(135deg, #150e36 0%, #fb5e12 100%);
+}
+
+.furia-text-gradient {
+  background: linear-gradient(90deg, #fb5e12, #14cff5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.furia-card {
+  background: rgba(21, 14, 54, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(251, 94, 18, 0.3);
+}
+
+.chat-bubble {
+  position: relative;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 80%;
+  margin-bottom: 1rem;
+}
+
+.chat-bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 1rem;
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(45deg);
+}
+
+.chat-bubble-bot {
+  background-color: #150e36;
+  border: 2px solid #fb5e12;
+  align-self: flex-start;
+}
+
+.chat-bubble-bot::after {
+  background-color: #150e36;
+  border-right: 2px solid #fb5e12;
+  border-bottom: 2px solid #fb5e12;
+  left: 1rem;
+}
+
+.chat-bubble-user {
+  background-color: #fb5e12;
+  color: white;
+  align-self: flex-end;
+}
+
+.chat-bubble-user::after {
+  background-color: #fb5e12;
+  right: 1rem;
+  left: auto;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 5px #14cff5; }
+  50% { box-shadow: 0 0 20px #14cff5; }
+  100% { box-shadow: 0 0 5px #14cff5; }
+}
+
+.glow-effect {
+  animation: glowing 2s infinite;
 }
