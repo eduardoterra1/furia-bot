@@ -52,7 +52,7 @@ export const furiaPlayers: Player[] = [
     nickname: "yuurih",
     realName: "Yuri Boian",
     role: "Rifler",
-    image: "/lovable-uploads/3ef3d0a3-d0ba-472b-8d05-fd5786ba5333.png",
+    image: "/lovable-uploads/baeb1705-030d-48a4-8650-885d1d0e9cca.png ",
     stats: {
       rating: 1.15,
       killsPerRound: 0.72,
@@ -64,7 +64,7 @@ export const furiaPlayers: Player[] = [
     nickname: "KSCERATO",
     realName: "Kaike Cerato",
     role: "Rifler",
-    image: "/lovable-uploads/79a1fcbb-4930-401e-938e-b19c59d06935.png",
+    image: "/lovable-uploads/3ef3d0a3-d0ba-472b-8d05-fd5786ba5333.png",
     stats: {
       rating: 1.16,
       killsPerRound: 0.74,
@@ -76,7 +76,7 @@ export const furiaPlayers: Player[] = [
     nickname: "MOLODOY",
     realName: "Danil Golubenko",
     role: "Rifler",
-    image: "/lovable-uploads/742dbe3c-532d-4f54-9472-30ecd83f7509.png",
+    image: "/lovable-uploads/79a1fcbb-4930-401e-938e-b19c59d06935.png",
     stats: {
       rating: 1.08,
       killsPerRound: 0.69,
@@ -100,7 +100,7 @@ export const furiaPlayers: Player[] = [
     nickname: "Sidde",
     realName: "Sidnei Macedo",
     role: "Coach",
-    image: "/lovable-uploads/baeb1705-030d-48a4-8650-885d1d0e9cca.png",
+    image: "lovable-uploads/742dbe3c-532d-4f54-9472-30ecd83f7509.png",
     stats: {
       rating: 0,
       killsPerRound: 0,

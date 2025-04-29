@@ -203,7 +203,7 @@ const Index = () => {
         <div className="mt-8 text-center">
           <Separator className="mb-4 bg-furia-secondary/30" />
           <p className="text-sm text-gray-400">
-            FURIA Bot Zica Dima &copy; 2025 - O chat bot mais fanático da FURIA!
+            FURIA Bot &copy; 2025 - O chat bot mais INSANO da FURIA!
           </p>
         </div>
       </div>
