@@ -1,4 +1,3 @@
-
 interface Player {
   nickname: string;
   realName: string;
@@ -37,20 +36,20 @@ interface WarCry {
 
 export const furiaPlayers: Player[] = [
   {
-    nickname: "arT",
-    realName: "Andrei Piovezan",
-    role: "Captain & AWPer",
+    nickname: "FalleN",
+    realName: "Gabriel Toledo",
+    role: "AWPer & IGL",
     image: "placeholder.svg",
     stats: {
-      rating: 1.08,
-      killsPerRound: 0.68,
-      headshotPercentage: 37.2,
+      rating: 1.09,
+      killsPerRound: 0.67,
+      headshotPercentage: 35.6,
     },
-    funFact: "Known for his aggressive AWP style and fearless entry fragging!"
+    funFact: "Conhecido como 'O Pai do CS Brasileiro' e um dos jogadores mais experientes do cenário mundial!"
   },
   {
     nickname: "yuurih",
-    realName: "Yuri Santos",
+    realName: "Yuri Boian",
     role: "Rifler",
     image: "placeholder.svg",
     stats: {
@@ -58,7 +57,7 @@ export const furiaPlayers: Player[] = [
       killsPerRound: 0.72,
       headshotPercentage: 55.1,
     },
-    funFact: "One of the most consistent players with incredible spray control!"
+    funFact: "Um dos jogadores mais consistentes da cena brasileira com um controle de spray incrível!"
   },
   {
     nickname: "KSCERATO",
@@ -70,31 +69,43 @@ export const furiaPlayers: Player[] = [
       killsPerRound: 0.74,
       headshotPercentage: 58.3,
     },
-    funFact: "Incredible aim and game sense, considered one of Brazil's greatest talents!"
+    funFact: "Mira incrível e grande senso de jogo, considerado um dos maiores talentos do Brasil!"
   },
   {
-    nickname: "drop",
-    realName: "André Abreu",
-    role: "Support",
+    nickname: "MOLODOY",
+    realName: "Danil Golubenko",
+    role: "Rifler",
     image: "placeholder.svg",
     stats: {
-      rating: 1.06,
-      killsPerRound: 0.67,
-      headshotPercentage: 48.9,
+      rating: 1.08,
+      killsPerRound: 0.69,
+      headshotPercentage: 47.5,
     },
-    funFact: "Master of utility usage and support plays!"
+    funFact: "Jovem talento russo que traz um estilo agressivo e imprevisível para o time!"
   },
   {
-    nickname: "saffee",
-    realName: "Rafael Costa",
-    role: "AWPer",
+    nickname: "YEKINDAR",
+    realName: "Mareks Galinskis",
+    role: "Entry Fragger",
     image: "placeholder.svg",
     stats: {
-      rating: 1.11,
-      killsPerRound: 0.70,
-      headshotPercentage: 35.8,
+      rating: 1.17,
+      killsPerRound: 0.76,
+      headshotPercentage: 52.8,
     },
-    funFact: "Late bloomer who became a top AWPer after 30 years old!"
+    funFact: "Conhecido por seu estilo agressivo e capacidade de abrir bombsites como entry fragger!"
+  },
+  {
+    nickname: "Sidde",
+    realName: "Sidnei Macedo",
+    role: "Coach",
+    image: "placeholder.svg",
+    stats: {
+      rating: 0,
+      killsPerRound: 0,
+      headshotPercentage: 0,
+    },
+    funFact: "Treinador estratégico que tem sido fundamental para a evolução tática da FURIA!"
   }
 ];
 
@@ -237,9 +248,9 @@ export const botResponses = {
   ],
   
   playerPraise: {
-    "arT": [
-      "arT MODO MONSTRO! ENTROU CORRENDO E DESTRUIU TUDO! CAPITÃO INSANO! 🔥",
-      "O HOMEM NÃO TEM MEDO! arT JOGANDO NO MODO FULL AGRESSIVO! GG! 🚀"
+    "FalleN": [
+      "FalleN MODO LENDÁRIO! O PAI DO CS BRASILEIRO AINDA TEM MUITO PRA ENSINAR! O AWP DELE É CERTEIRO! 🎯",
+      "GABRIEL TOLEDO É UM MONSTRO! FALLEN LIDERANDO E FAZENDO A DIFERENÇA! É O PROFESSOR DO CS! 🧠"
     ],
     "yuurih": [
       "yuurih É DIFERENCIADO! SPRAY CONTROL PERFEITO! É O REI DO ECO! 👑",
@@ -249,13 +260,17 @@ export const botResponses = {
       "KSCERATO COM O AIM NA NUVEM! HEADSHOT ATRÁS DE HEADSHOT! MONSTRO! 🎯",
       "A MÁQUINA BRASILEIRA! KSCERATO CARREGANDO O TIME! VAI BRASIL! 🇧🇷"
     ],
-    "drop": [
-      "drop JOGANDO XADREZ ENQUANTO OS OUTROS JOGAM DAMAS! SUPPORT DEMAIS! 🧩",
-      "UTILITY USAGE 200%! drop é o verdadeiro MVP! JOGADOR COMPLETO! 💯"
+    "MOLODOY": [
+      "MOLODOY ESTÁ ON FIRE! O RUSSO DA FURIA DESTRUINDO TUDO! INSANO! 💥",
+      "QUE JOGADAS DO MOLODOY! TALENTO JOVEM MOSTRANDO SERVIÇO! CLUTCH MASTER! 💪"
     ],
-    "saffee": [
-      "AWP DO saffee NÃO ERRA! SNIPER ABSURDO! OLHA O FLICK! 🔫",
-      "saffee FAZENDO ESCOLA COM A AWP! ADVERSÁRIO TÁ COM MEDO! 😱"
+    "YEKINDAR": [
+      "YEKINDAR ENTRY GOD! NINGUÉM SEGURA ESSE HOMEM NA ENTRADA DO SITE! 🚀", 
+      "O LETÃO VOADOR! YEKINDAR JOGANDO NUM NÍVEL ABSURDO! É O MELHOR ENTRY DO MUNDO! 💯"
+    ],
+    "Sidde": [
+      "O GÊNIO POR TRÁS DAS ESTRATÉGIAS! SIDDE É O CÉREBRO DA OPERAÇÃO! 🧠",
+      "COM O SIDDE NO COMANDO, A TÁTICA ESTÁ GARANTIDA! MELHOR COACH! 📊"
     ]
   },
   
