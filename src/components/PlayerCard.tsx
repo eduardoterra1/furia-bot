@@ -26,10 +26,10 @@ const PlayerCard = ({ nickname, realName, role, image, stats, funFact }: PlayerC
           <span className="bg-furia-secondary text-white px-2 py-1 rounded text-xs">{role}</span>
         </div>
         
-        <p className="text-sm text-gray-300 mb-4">{realName}</p>
+        <p className="text-sm text-gray-300 mb-2">{realName}</p>
         
-        <div className="w-full h-32 bg-gray-700 rounded-md mb-4 flex items-center justify-center">
-          <img src={image} alt={nickname} className="h-full object-contain" />
+        <div className="w-full h-60 bg-gradient-to-b from-black to-gray-900 rounded-md mb-4 flex items-center justify-center overflow-hidden">
+          <img src={image} alt={nickname} className="w-full h-full object-cover object-top" />
         </div>
         
         <button 

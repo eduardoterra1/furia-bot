@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useToast } from "@/components/ui/use-toast";
 import { Gamepad, MessageSquare, Trophy, Users, HelpCircle } from "lucide-react";
 import ChatMessage from "@/components/ChatMessage";
@@ -13,6 +14,7 @@ import MatchStatusCard from "@/components/MatchStatusCard";
 import TriviaQuestion from "@/components/TriviaQuestion";
 import AICheerGenerator from "@/components/AICheerGenerator";
 import { furiaPlayers, matchStatuses, triviaQuestions, botResponses, warCries } from '@/data/furiaData';
+
 const Index = () => {
   const {
     toast
