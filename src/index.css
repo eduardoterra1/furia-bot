@@ -97,11 +97,11 @@
 }
 
 .furia-gradient {
-  background: linear-gradient(135deg, #150e36 0%, #fb5e12 100%);
+  background: linear-gradient(135deg, #000000 0%, #fb5e12 100%);
 }
 
 .furia-text-gradient {
-  background: linear-gradient(90deg, #fb5e12, #14cff5);
+  background: linear-gradient(90deg, #fb5e12, #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -109,7 +109,7 @@
 }
 
 .furia-card {
-  background: rgba(21, 14, 54, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(251, 94, 18, 0.3);
 }
@@ -133,13 +133,13 @@
 }
 
 .chat-bubble-bot {
-  background-color: #150e36;
+  background-color: #000000;
   border: 2px solid #fb5e12;
   align-self: flex-start;
 }
 
 .chat-bubble-bot::after {
-  background-color: #150e36;
+  background-color: #000000;
   border-right: 2px solid #fb5e12;
   border-bottom: 2px solid #fb5e12;
   left: 1rem;
@@ -158,9 +158,9 @@
 }
 
 @keyframes glowing {
-  0% { box-shadow: 0 0 5px #14cff5; }
-  50% { box-shadow: 0 0 20px #14cff5; }
-  100% { box-shadow: 0 0 5px #14cff5; }
+  0% { box-shadow: 0 0 5px #FFFFFF; }
+  50% { box-shadow: 0 0 20px #FFFFFF; }
+  100% { box-shadow: 0 0 5px #FFFFFF; }
 }
 
 .glow-effect {

@@ -64,9 +64,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				furia: {
-					primary: '#150e36',
-					secondary: '#fb5e12',
-					accent: '#14cff5'
+					primary: '#000000',   // Alterado para preto
+					secondary: '#fb5e12', // Mantendo o laranja como secundário
+					accent: '#FFFFFF'      // Alterado para branco
 				}
 			},
 			borderRadius: {
