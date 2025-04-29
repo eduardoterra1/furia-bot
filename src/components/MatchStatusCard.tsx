@@ -44,7 +44,7 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
       <div className="bg-gradient-to-r from-furia-primary to-furia-accent bg-opacity-30 p-4 rounded-md">
         <div className="flex justify-center items-center gap-3">
           <div className="flex flex-col items-center">
-            <img src="placeholder.svg" alt="FURIA" className="w-12 h-12 object-contain" />
+            <img src="furia.png" alt="FURIA" className="w-12 h-12 object-contain" />
             <span className="font-bold mt-1">FURIA</span>
           </div>
           
@@ -63,7 +63,7 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
           </div>
           
           <div className="flex flex-col items-center">
-            <img src="placeholder.svg" alt={opponent} className="w-12 h-12 object-contain" />
+            <img src="navi.png" alt={opponent} className="w-12 h-12 object-contain" />
             <span className="font-bold mt-1">{opponent}</span>
           </div>
         </div>
@@ -71,7 +71,7 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
       
       {status === "live" && (
         <div className="mt-3 text-center text-sm text-furia-accent animate-pulse-furia">
-          🔴 Assistir agora!
+          <a href="https://furia.gg" target="_blank">🔴 Assistir agora!</a>
         </div>
       )}
     </Card>

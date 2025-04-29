@@ -122,24 +122,24 @@ export const matchStatuses: MatchStatus[] = [
     date: "2025-04-29"
   },
   {
-    opponent: "Astralis",
+    opponent: "NAVI",
     map: "Mirage",
     score: {
-      furia: 16,
+      furia: 13,
       opponent: 8
     },
     status: "finished",
-    date: "2025-04-27"
+    date: "2025-04-29"
   },
   {
-    opponent: "Team Liquid",
+    opponent: "NAVI",
     map: "Nuke",
     score: {
       furia: 0,
       opponent: 0
     },
     status: "upcoming",
-    date: "2025-05-02"
+    date: "2025-04-29"
   }
 ];
 
@@ -201,15 +201,15 @@ export const warCries: WarCry[] = [
 
 export const botResponses = {
   greetings: [
-    "Fala galerinha da FURIA! GG é nós que tá! 🔥",
-    "Eaí tropa, beleza? FURIA NA ÁREA! Bora dominar! 🎮",
+    "Fala galerinha da FURIA!! 🔥",
+    "Eaí tropa, beleza? FURIA NA ÁREA! Bora ganhar! 🎮",
     "Salve família! Tamo junto na torcida mais INSANA do CS! 🔵🟠",
     "GGGGGGG, chegou o bot mais hypado da FURIA! Vamo que vamo! 💪",
     "Fala fãs de CS! Preparados pra ver a FURIA DETONAR? Let's gooooo! 🚀"
   ],
   
   matchWin: [
-    "GGGGGG EZ! FURIA MONSTRO DEMAIS! É O BRASIL NO TOPO! 🏆",
+    "GGGGGG EZ! FURIA MONSTRA DEMAIS! É O BRASIL NO TOPO! 🏆",
     "VAAAAAMOOOO! QUE VITÓRIA ABSURDA! FURIA JOGANDO DEMAIS! 🔥",
     "GANHAMO! É O PODER DO BR! FURIA FAZENDO HISTÓRIA! 💙🧡",
     "É O NERF OU NADA! FURIA ATROPELOU GERAL! GGWP! 🚂",
@@ -217,26 +217,26 @@ export const botResponses = {
   ],
   
   matchLoss: [
-    "GG! Foi mal dessa vez, mas o comeback é real! FURIA VAI VOLTAR MAIS FORTE! 💪",
+    "GG! Dessa vez não deu, mas o comeback é real! FURIA VAI VOLTAR MAIS FORTE! 💪",
     "Perdemo essa, mas é só o começo! A FURIA não desiste nunca! JAMAIS! ⚡",
-    "GG WP... Hoje não foi nosso dia, mas amanhã tem mais! FURIA é resiliência! 🔄",
+    "GGWP... Hoje não foi nosso dia, mas amanhã tem mais! FURIA é resiliência! 🔄",
     "Caímos mas vamos levantar! O jogo só acaba quando a gente ganha! FURIA! 🔥",
     "Cedo demais pra tiltar! É aprender com os erros e voltar ainda melhor! AVANTE FURIA! 🚀"
   ],
   
   clutchMoments: [
     "OLHA O CLUTCH!!! QUE ABSURDOOOOO!!! É O MELHOR DO MUNDO!!! 🤯",
-    "AAAAAAACEEEEU!!! COMO ASSIM?? JOGA MUITO! É O CS DO BRASIL! 🇧🇷",
+    "FAAAAALLLLEEEEEN!!! COMO ASSIM?? JOGA MUITO! É O MELHOR AWP DO BRASILLL! 🇧🇷",
     "QUE JOGADA INSANA!!! CLIPA ISSO AÍ! VAI VIRALIZAR! MONSTRO! 📹",
     "MEU DEUS DO CÉU! QUE CLUTCH FOI ESSE?? JOGOU O FINO DO CS! 👑",
-    "INACREDITÁVEL! JOGADA DE MILHÕES! É POR ISSO QUE A FURIA É DIFERENCIADA! 💰"
+    "KAS CE RA TO! JOGADOR DE MILHÕES! É POR ISSO QUE A FURIA É DIFERENCIADA! 💰"
   ],
   
   memes: [
-    "Adversário tilta, FURIA grita: GG EZ! PepeLaugh 😂",
-    "arT entrando no bombsite: *I am speed* Vruuuum! 🏎️",
+    "Adversário tilta, FURIA grita: GG EZ! FASIL, U MAD? 😂",
+    "yuurih entrando no bombsite: *I am speed* Vruuuum! 🏎️",
     "KSCERATO fazendo ace: *They had us in the first half, not gonna lie* 🎯",
-    "Time adversário economizando: *It's free real estate* pra FURIA! 💸",
+    "Time adversário economizando: EZ FOR FURIA! 💸",
     "Quando o bot inimigo planta a bomba: *A gente não faz entrega* 📦"
   ],
   
@@ -250,7 +250,7 @@ export const botResponses = {
   
   playerPraise: {
     "FalleN": [
-      "FalleN MODO LENDÁRIO! O PAI DO CS BRASILEIRO AINDA TEM MUITO PRA ENSINAR! O AWP DELE É CERTEIRO! 🎯",
+      "FalleN MODO LENDÁRIO! O PAI DO CS BRASILEIRO AINDA TEM MUITO PRA ENSINAR! O AWP DELE É CERTEIRA! 🎯",
       "GABRIEL TOLEDO É UM MONSTRO! FALLEN LIDERANDO E FAZENDO A DIFERENÇA! É O PROFESSOR DO CS! 🧠"
     ],
     "yuurih": [
@@ -258,7 +258,7 @@ export const botResponses = {
       "MENTE BRILHANTE! yuurih calculando cada movimento! GÊNIO DO CS! 🧠"
     ],
     "KSCERATO": [
-      "KSCERATO COM O AIM NA NUVEM! HEADSHOT ATRÁS DE HEADSHOT! MONSTRO! 🎯",
+      "KSCERATO COM O AIM ON! HEADSHOT ATRÁS DE HEADSHOT! MONSTRO! 🎯",
       "A MÁQUINA BRASILEIRA! KSCERATO CARREGANDO O TIME! VAI BRASIL! 🇧🇷"
     ],
     "MOLODOY": [
