@@ -3,6 +3,15 @@
 
 **URL**: https://lovable.dev/projects/b6bd6b19-9a8e-4859-86a6-9a26709cd65e
 
+## Sobre o BOT da FURIA
+
+🗂️ Estrutura de Funcionalidades
+  Módulo                   	Descrição
+💬 Chat                     Principal	Interface de chat com personalidade. O bot responde com frases de torcida, atualizações e humor.
+🏆 Status de Partida	      Tela lateral ou embed mostrando o placar ao vivo (mockado ou via API).
+👥 Perfil dos Jogadores	    Cards com estatísticas, imagens e curiosidades dos jogadores.
+❓ Trivia FURIA	            Quiz com perguntas sobre a história do time. Mostra pontuação.
+🧠 Modo IA	                Geração de gritos de guerra e memes via Lovable.
 
 
 Para iniciar o projeto:
