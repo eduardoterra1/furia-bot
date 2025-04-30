@@ -23,14 +23,14 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
   return (
     <Card className={cn(
       "furia-card overflow-hidden relative p-4 text-white",
-      status === "live" && "border-furia-accent glow-effect"
+      status === "live" && "border-white glow-effect"
     )}>
       <div className="flex justify-between items-center mb-3">
-        <h3 className="font-gaming text-lg text-furia-secondary">FURIA vs {opponent}</h3>
+        <h3 className="font-gaming text-lg text-white">FURIA vs {opponent}</h3>
         <div className={cn(
           "px-2 py-1 rounded text-xs font-bold",
           status === "live" ? "bg-red-600 animate-pulse" : 
-          status === "upcoming" ? "bg-furia-secondary" : "bg-gray-600"
+          status === "upcoming" ? "bg-white text-black" : "bg-gray-600"
         )}>
           {status === "live" ? "AO VIVO" : status === "upcoming" ? "EM BREVE" : "FINALIZADO"}
         </div>
@@ -41,7 +41,7 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
         <div className="text-sm text-gray-300">{formattedDate}</div>
       </div>
       
-      <div className="bg-gradient-to-r from-furia-primary to-furia-accent bg-opacity-30 p-4 rounded-md">
+      <div className="bg-black border border-white bg-opacity-30 p-4 rounded-md">
         <div className="flex justify-center items-center gap-3">
           <div className="flex flex-col items-center">
             <img src="furia.png" alt="FURIA" className="w-12 h-12 object-contain" />
@@ -50,13 +50,13 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
           
           <div className="flex gap-2 items-center">
             <span className={cn("text-2xl font-gaming", 
-              score.furia > score.opponent ? "text-furia-secondary" : "text-white"
+              score.furia > score.opponent ? "text-white" : "text-gray-400"
             )}>
               {score.furia}
             </span>
             <span className="text-lg">:</span>
             <span className={cn("text-2xl font-gaming", 
-              score.opponent > score.furia ? "text-red-500" : "text-white"
+              score.opponent > score.furia ? "text-white" : "text-gray-400"
             )}>
               {score.opponent}
             </span>
@@ -70,7 +70,7 @@ const MatchStatusCard = ({ opponent, map, score, status, date }: MatchStatusCard
       </div>
       
       {status === "live" && (
-        <div className="mt-3 text-center text-sm text-furia-accent animate-pulse-furia">
+        <div className="mt-3 text-center text-sm text-white animate-pulse-furia">
           <a href="https://furia.gg" target="_blank">🔴 Assistir agora!</a>
         </div>
       )}
