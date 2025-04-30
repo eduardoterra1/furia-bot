@@ -24,7 +24,7 @@ const Index = () => {
     text: string;
     isBot: boolean;
   }[]>([{
-    text: "Fala galera da FURIA! GG é nós que tá! 🔥 Bora trocar uma ideia ou falar das partidas? Tô aqui pra dar aquele hype no chat!",
+    text: "Fala galera da FURIA! GG é nois! 🔥 Bora trocar uma ideia ou falar das partidas? Tô aqui pra dar aquele hype no chat!",
     isBot: true
   }]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

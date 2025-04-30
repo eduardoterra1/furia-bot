@@ -212,8 +212,8 @@ export const botResponses = {
     "GGGGGG EZ! FURIA MONSTRA DEMAIS! É O BRASIL NO TOPO! 🏆",
     "VAAAAAMOOOO! QUE VITÓRIA ABSURDA! FURIA JOGANDO DEMAIS! 🔥",
     "GANHAMO! É O PODER DO BR! FURIA FAZENDO HISTÓRIA! 💙🧡",
-    "É O NERF OU NADA! FURIA ATROPELOU GERAL! GGWP! 🚂",
-    "CHORA ADVERSÁRIO! FURIA MUITO MONSTRUOSA! É O BRASIL DOMINANDO! 🇧🇷"
+    "O CHORO É LIVRE! FURIA ATROPELOU GERAL! GGWP! 🚂",
+    "GGEZ! FURIA MUITO MONSTRUOSA! É O BRASIL DOMINANDO! 🇧🇷"
   ],
   
   matchLoss: [
@@ -285,7 +285,7 @@ export const botResponses = {
     "FeelsGoodMan quando a FURIA faz jogada de milhões! 💰",
     "Adversário deu GG cedo demais! KEKW! 😂",
     "Momento brabo da FURIA! PogChamp! 😱",
-    "FURIA in the house! MonkaS pro adversário! 🏠"
+    "FURIA in the house! ez pz lemon squeezy! 🏠"
   ],
 
   aiCheerGenerator: [
