@@ -1,7 +1,11 @@
 # Bem vindo a projeto BOT da torcida da FURIA!
+- Este projeto foi desenvolvido como parte de uma lista de desafios tecnicos, sendo este chat bot o primeiro desafio. Abaixo teremos as informações gerais do projeto. 
+
 ## Informações do projeto
 
-**URL**: https://lovable.dev/projects/b6bd6b19-9a8e-4859-86a6-9a26709cd65e
+## Challenge #1: Experiência Conversacional 
+1. Objetivo: Desenvolver um caso de uso conversacional relacionado à FURIA (Telegram, web chat ou mobile chat)
+2. Proposta: Crie um chat para os fãs do time de CS da FURIA. O Chat deve conter tudo que você, como fã, gostaria de ver para acompanhar e interagir com o time.
 
 ## Sobre o BOT da FURIA
 
