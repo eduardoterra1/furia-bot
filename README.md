@@ -1,4 +1,4 @@
-# Bem vindo a projeto BOT da torcida da FURIA!
+# Bem vindo ao projeto BOT da torcida da FURIA!
 - Este projeto foi desenvolvido como parte de uma lista de desafios tecnicos, sendo este chat bot o primeiro desafio. Abaixo teremos as informações gerais do projeto. 
 
 ## Informações do projeto
