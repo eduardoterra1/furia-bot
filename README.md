@@ -26,6 +26,13 @@ git clone <SUA_GIT_URL>
 # Etapa 2: Navegue para diretorio do projeto.
 cd <SEU_PROJECT_NAME>
 
+# Etapa 2.1: Certifique de ter o node.js instalado em seu computador na ultima versao disponivel
+
+# Consultar a versão da Node.js:
+node -v # Deveria imprimir "v22.15.0".
+# Consultar a versão da npm:
+npm -v # Deveria imprimir "10.9.2".
+
 # Etapa 3: Instale as dependências necessárias. 
 npm i
 
